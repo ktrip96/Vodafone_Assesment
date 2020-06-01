@@ -1,4 +1,5 @@
 ## Vodafone Assesment
+![](/public/vodafone_icon.jpg)
 
 Go inside the project's repo and run:
 
