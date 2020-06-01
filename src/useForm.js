@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react"
-import validate from './validateForm'
+import validate from './Validations/validateForm'
 
 function useForm(){
     const [formData, setFormData] = useState({phone:"", email:"",password:""})

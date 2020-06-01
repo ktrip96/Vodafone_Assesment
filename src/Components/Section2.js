@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"
-import useForm from "./useForm"
+import useForm from "../useForm"
 
 export default function Section2(props) {
   const { formData, errorData, handleChange, handleSubmit } = useForm()

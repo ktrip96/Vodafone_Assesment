@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
 import "./App.css"
-import Section1 from "./Section1"
-import Section2 from "./Section2"
-import Slider from "./Slider"
-import SectionHeader from "./SectionHeader"
-import Loading from './Loading'
+import Section1 from "./Components/Section1"
+import Section2 from "./Components/Section2"
+import Slider from "./Components/Slider"
+import SectionHeader from "./Components/SectionHeader"
+import Loading from './Components/Loading'
 
 function App() {
   const [section, setSection] = useState(1)
