@@ -144,6 +144,19 @@
   ". c c c d d d e e e .";
 }
 
+@media (max-width: 800px) {
+  .section1 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas:
+    "a a b b"
+    "d d e e"
+    ". c c .";
+  }
+}
+
 .image1 {
   background-color: #1292ee;
   grid-area: a;  
