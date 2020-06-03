@@ -182,19 +182,15 @@
 /* Section 2 Component */
 
 .section2{
-  display:grid;
-  grid-gap:5px;
-  grid-template-columns: 1fr 1fr;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.slider{
-  grid-column:1 /span 1;
+.section2 > div{
+  width:610px;
 }
 
-.form{
-  grid-column: 2 / span 1;
-  background-color: white;
-}
 
 /* Percentage Slider */
 
