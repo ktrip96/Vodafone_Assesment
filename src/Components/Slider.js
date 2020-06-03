@@ -1,5 +1,6 @@
 import React from "react"
 import { FaSearch } from "react-icons/fa"
+import {Link} from "react-router-dom"
 
 export default function Slider(props) {
   const { title, subtitle } = props.data
@@ -17,7 +18,7 @@ export default function Slider(props) {
         </div>
         
 
-        <h5 style={{ marginLeft: "20px", marginRight: "400px" }}>Page 2</h5>
+        <Link to="/page2"><h5 style={{ marginLeft: "20px", marginRight: "400px",color:"white" }}>Page 2</h5></Link>
         <FaSearch style={{ marginLeft: "20px" }} />
       </div>
       <h1>{title}</h1>

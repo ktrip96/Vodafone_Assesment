@@ -3,7 +3,7 @@ import React from "react"
 export default function SectionHeader({ swap,state,title }) {
   return (
     <div className="box section">
-      <h2 className="center" >{title}</h2>
+      <h2 className="center">{title}</h2>
       <div className="bottom-right">
         <div className="seperate">
           <p onClick={() => swap(1)} className="section-titles" style={state===2?{color:'#748494'}:{}}>Section 1</p>

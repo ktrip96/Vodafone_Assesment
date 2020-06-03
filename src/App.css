@@ -343,3 +343,32 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Page 2*/
+.page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:800px;
+}
+.pageTitle{
+  font-size: 50px;
+}
+
+.page-button{
+  background-color:#166dd5;
+  border-radius:5px;
+  width: 160px;
+  height: 52px;
+  margin:15px;
+  font-size:15px;
+  letter-spacing: 0px;
+  text-align:center;
+  color:#ffffff;
+  cursor:pointer;
+  font-weight:bold;
+}
+.page-button:hover{
+  background-color: #44bcd8;
+}
