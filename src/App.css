@@ -229,7 +229,15 @@
 .slider-percentage{
   text-transform: uppercase;
   font-size:12px;
-  word-spacing:480px;
+  word-spacing:460px;
+}
+
+@media (max-width: 800px) {
+  .slider-percentage {
+    text-transform: uppercase;
+    font-size:12px;
+    word-spacing:300px;
+  }
 }
 
 .percentage1{
