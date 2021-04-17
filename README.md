@@ -4,6 +4,7 @@
 Go inside the project's repo and run:
 
 ```bash
+npm install
 npm start
 ```
 
